@@ -30,7 +30,7 @@ public abstract class ComponenteTerritorial {
 
     public abstract void verificarStatus();
 
-    // Getters 
+    // Getters (apenas leitura)
     public String getId() {
         return this.id;
     }
