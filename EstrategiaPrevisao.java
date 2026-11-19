@@ -1,7 +1,6 @@
 import java.util.List;
 
-// Toda alteração passa por um setter que valida o valor antes de aceitar,
-// e os limiares de alerta só mudam com o código de acesso
+// Abstrata porque não existe uma "previsão genérica", só formas específicas (média móvel e comparação).
 public abstract class EstrategiaPrevisao {
 
     // Atributos comuns a todas as formas de previsão
